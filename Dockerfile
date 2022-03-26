@@ -1,4 +1,4 @@
-FROM alpine:3.14.1
+FROM alpine:latest
 
 # Dependencies
 RUN apk add --no-cache --virtual .build-deps \
